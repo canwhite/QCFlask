@@ -3,6 +3,7 @@ from flask import Flask,flash,redirect,render_template,\
 
 app = Flask(__name__)
 app.secret_key = 'some_secret'
+#test1
 
 #首页
 @app.route('/')
